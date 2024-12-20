@@ -61,7 +61,8 @@ V této verzi jsou příkazy odesílány na server, který je zpracuje pomocí P
 - Serverová verze: Server s podporou PHP (např. Apache nebo Nginx).
 
 ## Náhled
-![image](https://github.com/user-attachments/assets/393bf59b-509a-442b-9981-3bad8f850040)
+![image](https://github.com/user-attachments/assets/a2223cd6-4662-49ed-838f-7610c9d4283d)
+
 
 
 
