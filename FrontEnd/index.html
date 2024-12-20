@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karel - Klientská verze</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Karel</h1>
+    <div id="app">
+        <div id="controls">
+            <textarea id="commands" placeholder="Zadejte příkazy"></textarea>
+            <button onclick="executeCommands()">Proveď</button>
+        </div>
+        <div id="grid"></div>
+    </div>
+    <div id="prikazy-popis">
+        <h3>Možné příkazy:</h3>
+        <ul>
+            <li><b>KROK</b> - Karel se v poli posune o tolik míst ve svém směru natočení, kolik mu je za příkazem určeno (např. KROK 4). V případě, že se parametr neuvede, Karel provede jeden krok.</li>
+            <li><b>VLEVOBOK</b> - Karel se otočí vlevo. Opět můžeme zadat parametrem, kolikrát se tato operace provede.</li>
+            <li><b>POLOZ</b> - Na pozici Karla se položí parametr příkazu (např. POLOZ A).</li>
+            <li><b>RESET</b> - Vyčistí pole a nastaví Karla do levého horního místa.</li>
+        </ul>
+        <p>Příkazy je možné zadávat jak velkými, tak i malými písmeny abecedy. Každý příkaz musí být na nové řádce.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
