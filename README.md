@@ -13,3 +13,9 @@ Tento projekt obsahuje dvě varianty aplikace Karel, jednoduchého robota, kter�
 - `index.html`
 - `style.css`
 - `script.js`
+
+## Server-side verze (HTML, CSS, PHP)
+
+**Soubory:**
+- `index.php`
+- `style.css`
